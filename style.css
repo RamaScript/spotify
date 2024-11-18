@@ -249,6 +249,7 @@ body {
   padding: 0.75rem;
   margin-top: 1rem;
   margin-right: 1rem;
+  transition: 0.5s;
 }
 
 .card:hover {
@@ -265,6 +266,7 @@ body {
 .card-img {
   width: 100%;
   border-radius: 0.5rem;
+  transition: 0.5s;
 }
 
 .card-name {
