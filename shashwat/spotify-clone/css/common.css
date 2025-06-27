@@ -1,0 +1,45 @@
+/* Universal Styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  background-color: black;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3d3d3d;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+/* body styling */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+
+
+
+.player {
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+  height: 4rem;
+  width: 100vw;
+}

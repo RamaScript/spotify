@@ -1,0 +1,78 @@
+.sidebar {
+  width: 18em;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .nav {
+  background-color: #121212;
+  margin: 0.5rem;
+  padding: 0.25rem 1.25rem;
+  border-radius: 1rem;
+}
+
+.sidebar .nav .nav-options {
+  margin: 1rem 0 1rem 0;
+  display: flex;
+}
+
+.sidebar .nav .nav-options i {
+  font-size: 1.25rem;
+}
+
+.sidebar .nav .nav-options a {
+  color: white;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  text-decoration: none;
+  align-self: center;
+}
+
+.sidebar .lib {
+  background-color: #121212;
+  height: 100%;
+  margin: 0.5rem;
+  border-radius: 1rem;
+}
+
+.sidebar .lib .lib-options {
+  display: flex;
+  margin: 1rem 1rem;
+}
+
+.sidebar .lib .lib-options img {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.sidebar .lib .lib-options a {
+  color: white;
+  text-decoration: none;
+  flex: 1;
+  margin-left: 0.75rem;
+}
+
+.sidebar .lib .lib-options i {
+  font-size: 1.25rem;
+  margin-left: 0.75rem;
+}
+
+.sidebar .lib .lib-box {
+  background-color: #232323;
+  margin: 1rem 0.5rem;
+  padding: 0.75rem;
+  border-radius: 1rem;
+}
+
+.sidebar .lib .lib-box .first-para {
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.sidebar .lib .lib-box .second-para {
+  opacity: 0.9;
+  margin-bottom: 0.75rem;
+}
+
+

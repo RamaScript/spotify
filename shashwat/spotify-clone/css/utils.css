@@ -1,0 +1,12 @@
+.badge {
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 10rem;
+  border: 0px;
+  
+}
+
+.dark-badge{
+    background-color: black;
+    color: white;
+}
